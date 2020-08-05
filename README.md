@@ -6,8 +6,6 @@ This full-stack web application follows the MVC design pattern for users to inpu
 
 The user, also known as the caregiver, might not be professionally trained and may not know all of the care recipient's information in order to effectively communicate with medical professionals. The value of this application off hand is that it allows the user to have all necessary information on hand to be able to provide the utmost care for their recipients/dependent, and even for themselves. 
 
-Users will only have access to profiles that are associated with their account and will not have access to other users' data. This application utilizes protected routes so that the information cannot be access unless an authorized user is logged in. Sensitive information, including API keys and passwords are protected using NPM packages Dotenv and Bcrypt, respectively, to prevent the data from being compromised. 
-
 ## User Story
 •	AS A patient, I WANT to keep track of my information, SO THAT I can access and update it when necessary, and can find more information on medications and conditions
 
